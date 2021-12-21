@@ -270,7 +270,7 @@ class Finder:
 class PatchDB:
     CHANNELS = {
         "dev": (4109, 4110, 4111, 4112, 4114, 4115, 4116, 4117, 4118, 4119, 4120, 4122, 4123),
-        "stable": (4107, 4113, 4121),
+        "stable": (4107, 4113, 4121, 4126),
     }
 
     all_versions = tuple(itertools.chain.from_iterable(CHANNELS.values()))
